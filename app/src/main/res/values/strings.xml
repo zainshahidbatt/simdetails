@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SIM DETAILS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+        <string name="button">click button</string>
+        <string name="dialogTitle">Error</string>
+        <string name="dialogMessage">No internet Connection Please Connect to Internet</string>
+    <string name="server">Server</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="developer_name_zain_shahid">Developer Name: Zain Shahid</string>
+    <string name="contact_us_to_develop_your_android_ios_and_hybrid_app_for_android_iphone_and_website_for_your_business_we_can_manage_and_maintain_an_existing_mobile_app_we_can_work_as_your_mobile_application_developer_to_fulfill_your_mobile_app_needs_on_a_daily_basis">Contact us to develop your android, ios, and hybrid app for android, iphone and website for your Business. We can manage and maintain an existing mobile app. We can work as your Mobile Application Developer to fulfill your mobile app needs on a daily basis.</string>
+    <string name="zainshahidbutt4950_gmail_com">zainshahidbutt4950@gmail.com</string>
+    <string name="contact_uss">Contact Us:</string>
+    <string name="whatsapp_932364202887">whatsapp: +932364202887</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="disclamier">Disclamier</string>
+    <string name="all_the_information_provided_in_this_application_is_hosted_on_public_doamins_and_copyright_of_their_respective_owners_we_do_not_claim_any_information_provided_in_the_application_we_just_provided_an_organised_way_of_surfing_and_no_pledge_any_given_that_hte_information_provided_is_exact">All the information provided in this application is hosted on public doamins and copyright of their respective owners. We do not claim any information provided in the application. We just provided an organised way of surfing and no pledge any given that hte information provided is exact.</string>
+    <string name="sim_details">SIM Details</string>
+    <string name="xx">اگر سرور میں نمبر کا ڈیٹا نا ملے تو دوسرے سرور میں چیک کریں-</string>
+    <string name="details">Details</string>
+    <string name="todo">TODO</string>
+    <string name="serverrr">Server</string>
+    <string name="all_sims_details">ALL SIMS DETAILS</string>
+
+</resources>

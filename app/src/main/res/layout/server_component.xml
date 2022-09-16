@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_20sdp">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cvCard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardCornerRadius="@dimen/_16sdp"
+        app:cardElevation="0dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/picPng"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_160sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTitle"
+        android:contentDescription="@string/todo" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:text="@string/serverrr"
+        android:textColor="#000000"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="@dimen/_110sdp"-->
+    <!--        android:layout_marginStart="@dimen/_20sdp"-->
+    <!--        android:layout_marginTop="@dimen/_40sdp"-->
+    <!--        android:layout_marginEnd="@dimen/_20sdp"-->
+    <!--        app:cardCornerRadius="@dimen/_8sdp">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/linearLayout1"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:background="@drawable/bgorange"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginStart="@dimen/_10sdp"-->
+    <!--                android:layout_marginTop="@dimen/_20sdp"-->
+    <!--                android:orientation="horizontal">-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="Room No:"-->
+    <!--                    android:textColor="#000000"-->
+    <!--                    android:textSize="@dimen/_18sdp" />-->
+    <!--                <TextView-->
+    <!--                    android:layout_marginStart="@dimen/_10sdp"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="00"-->
+    <!--                    android:textColor="#000000"-->
+    <!--                    android:textSize="@dimen/_22sdp" />-->
+
+
+    <!--            </LinearLayout>-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_marginStart="@dimen/_10sdp"-->
+    <!--                android:layout_marginTop="@dimen/_10sdp"-->
+    <!--                android:orientation="horizontal">-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_marginStart="@dimen/_5sdp"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="00"-->
+    <!--                    android:textColor="#000000"-->
+    <!--                    android:textSize="@dimen/_18sdp" />-->
+
+
+    <!--            </LinearLayout>-->
+
+    <!--        </LinearLayout>-->
+    <!--        <ImageView-->
+    <!--            android:background="@drawable/room"-->
+    <!--            android:layout_marginTop="@dimen/_20sdp"-->
+    <!--            android:layout_marginStart="@dimen/_180sdp"-->
+    <!--            android:layout_width="@dimen/_50sdp"-->
+    <!--            android:layout_height="@dimen/_70sdp"/>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

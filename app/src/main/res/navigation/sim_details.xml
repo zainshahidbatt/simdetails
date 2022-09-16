@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sim_details"
+    app:startDestination="@id/fragment_dash_board">
+
+    <fragment
+        android:id="@+id/fragment_dash_board"
+        android:name="com.example.simdetails.DashBoard"
+        tools:layout="@layout/fragment_dash_board"
+        android:label="DashBoard"
+        >
+        <action
+            android:id="@+id/action_fragment_dash_board_to_fragmentServer"
+            app:destination="@id/fragmentServer" />
+        <action
+            android:id="@+id/action_fragment_dash_board_to_fragmentServerDetails"
+            app:destination="@id/fragmentServerDetails" />
+        <action
+            android:id="@+id/action_fragment_dash_board_to_fragmentServerDetails2"
+            app:destination="@id/fragmentServerDetails" />
+        <action
+            android:id="@+id/action_fragment_dash_board_to_fragmentContactInfo"
+            app:destination="@id/fragmentContactInfo" />
+        <action
+            android:id="@+id/action_fragment_dash_board_to_fragmentDiscalimer"
+            app:destination="@id/fragmentDiscalimer" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentServer"
+        android:name="com.example.simdetails.severs.FragmentServer"
+        android:label="fragment_server"
+        tools:layout="@layout/fragment_server" >
+        <action
+            android:id="@+id/action_fragmentServer_to_fragmentServerDetails"
+            app:destination="@id/fragmentServerDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentServerDetails"
+        android:name="com.example.simdetails.severs.FragmentServerDetails"
+        android:label="fragment_server_details"
+        tools:layout="@layout/fragment_server_details" >
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentContactInfo"
+        android:name="com.example.simdetails.FragmentContactInfo"
+        android:label="fragment_contact_info"
+        tools:layout="@layout/fragment_contact_info" />
+    <fragment
+        android:id="@+id/fragmentDiscalimer"
+        android:name="com.example.simdetails.FragmentDiscalimer"
+        android:label="fragment_discalimer"
+        tools:layout="@layout/fragment_discalimer" />
+</navigation>

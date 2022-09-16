@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/drawable-v24/head_card.xml" value="0.1" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/card_component.xml" value="0.4" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/fragment_contact_info.xml" value="0.25" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/fragment_dash_board.xml" value="0.176" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/fragment_discalimer.xml" value="0.2609375" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/fragment_server.xml" value="0.275" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/fragment_server_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/server_component.xml" value="0.2609375" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/servercomponent.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/Umar Abbas/AndroidStudioProjects/SIMDETAILS/app/src/main/res/layout/splashscreen.xml" value="0.275" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
